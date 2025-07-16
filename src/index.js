@@ -1,5 +1,6 @@
 let nivelHeroina = "";
 let experiencia = 11000;
+const heroina = "Penitente Escarlate"
 
 
 
@@ -21,4 +22,4 @@ if (experiencia <= 1000){
  nivelHeroina = "o RADIANTE!";
 }
 
-  console.log(`O Rank do herói é ${nivelHeroina} e sua experiência está estimada na base de: ${experiencia} de XP`);
+  console.log(`O Rank da ${heroina} é ${nivelHeroina} e sua experiência está estimada na base de: ${experiencia} de XP`);
